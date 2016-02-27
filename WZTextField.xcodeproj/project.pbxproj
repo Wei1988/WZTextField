@@ -19,6 +19,17 @@
 		683E015F1C81012B00F7FA1A /* SecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E015E1C81012B00F7FA1A /* SecondTabViewController.m */; };
 		683E01621C81543A00F7FA1A /* ThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01611C81543A00F7FA1A /* ThirdTabViewController.m */; };
 		683E01651C81545B00F7FA1A /* FourthTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01641C81545B00F7FA1A /* FourthTabViewController.m */; };
+		683E01881C82189F00F7FA1A /* Alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E017D1C82189F00F7FA1A /* Alarm.png */; };
+		683E01891C82189F00F7FA1A /* CheckBox-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E017E1C82189F00F7FA1A /* CheckBox-unselected.png */; };
+		683E018A1C82189F00F7FA1A /* CheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E017F1C82189F00F7FA1A /* CheckBox.png */; };
+		683E018B1C82189F00F7FA1A /* Close-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01801C82189F00F7FA1A /* Close-small.png */; };
+		683E018C1C82189F00F7FA1A /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01811C82189F00F7FA1A /* Close.png */; };
+		683E018D1C82189F00F7FA1A /* PointLeft-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01821C82189F00F7FA1A /* PointLeft-unselected.png */; };
+		683E018E1C82189F00F7FA1A /* PointLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01831C82189F00F7FA1A /* PointLeft.png */; };
+		683E018F1C82189F00F7FA1A /* PointRight-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01841C82189F00F7FA1A /* PointRight-unselected.png */; };
+		683E01901C82189F00F7FA1A /* PointRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01851C82189F00F7FA1A /* PointRight.png */; };
+		683E01911C82189F00F7FA1A /* Star-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01861C82189F00F7FA1A /* Star-grey.png */; };
+		683E01921C82189F00F7FA1A /* Star-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E01871C82189F00F7FA1A /* Star-red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +75,17 @@
 		683E01611C81543A00F7FA1A /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
 		683E01631C81545B00F7FA1A /* FourthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTabViewController.h; sourceTree = "<group>"; };
 		683E01641C81545B00F7FA1A /* FourthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTabViewController.m; sourceTree = "<group>"; };
+		683E017D1C82189F00F7FA1A /* Alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alarm.png; sourceTree = "<group>"; };
+		683E017E1C82189F00F7FA1A /* CheckBox-unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CheckBox-unselected.png"; sourceTree = "<group>"; };
+		683E017F1C82189F00F7FA1A /* CheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox.png; sourceTree = "<group>"; };
+		683E01801C82189F00F7FA1A /* Close-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close-small.png"; sourceTree = "<group>"; };
+		683E01811C82189F00F7FA1A /* Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Close.png; sourceTree = "<group>"; };
+		683E01821C82189F00F7FA1A /* PointLeft-unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PointLeft-unselected.png"; sourceTree = "<group>"; };
+		683E01831C82189F00F7FA1A /* PointLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PointLeft.png; sourceTree = "<group>"; };
+		683E01841C82189F00F7FA1A /* PointRight-unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PointRight-unselected.png"; sourceTree = "<group>"; };
+		683E01851C82189F00F7FA1A /* PointRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PointRight.png; sourceTree = "<group>"; };
+		683E01861C82189F00F7FA1A /* Star-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-grey.png"; sourceTree = "<group>"; };
+		683E01871C82189F00F7FA1A /* Star-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-red.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +136,7 @@
 		683E010E1C7E589A00F7FA1A /* WZTextField */ = {
 			isa = PBXGroup;
 			children = (
+				683E01661C82185300F7FA1A /* Icon */,
 				683E01121C7E589A00F7FA1A /* AppDelegate.h */,
 				683E01131C7E589A00F7FA1A /* AppDelegate.m */,
 				683E014F1C80F4BA00F7FA1A /* CustomViews */,
@@ -208,6 +231,24 @@
 				683E01641C81545B00F7FA1A /* FourthTabViewController.m */,
 			);
 			name = FourthTab;
+			sourceTree = "<group>";
+		};
+		683E01661C82185300F7FA1A /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				683E017D1C82189F00F7FA1A /* Alarm.png */,
+				683E017E1C82189F00F7FA1A /* CheckBox-unselected.png */,
+				683E017F1C82189F00F7FA1A /* CheckBox.png */,
+				683E01801C82189F00F7FA1A /* Close-small.png */,
+				683E01811C82189F00F7FA1A /* Close.png */,
+				683E01821C82189F00F7FA1A /* PointLeft-unselected.png */,
+				683E01831C82189F00F7FA1A /* PointLeft.png */,
+				683E01841C82189F00F7FA1A /* PointRight-unselected.png */,
+				683E01851C82189F00F7FA1A /* PointRight.png */,
+				683E01861C82189F00F7FA1A /* Star-grey.png */,
+				683E01871C82189F00F7FA1A /* Star-red.png */,
+			);
+			path = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,8 +357,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683E018E1C82189F00F7FA1A /* PointLeft.png in Resources */,
+				683E018C1C82189F00F7FA1A /* Close.png in Resources */,
+				683E018D1C82189F00F7FA1A /* PointLeft-unselected.png in Resources */,
+				683E018B1C82189F00F7FA1A /* Close-small.png in Resources */,
+				683E018A1C82189F00F7FA1A /* CheckBox.png in Resources */,
+				683E01881C82189F00F7FA1A /* Alarm.png in Resources */,
+				683E01921C82189F00F7FA1A /* Star-red.png in Resources */,
 				683E011F1C7E589A00F7FA1A /* LaunchScreen.storyboard in Resources */,
+				683E018F1C82189F00F7FA1A /* PointRight-unselected.png in Resources */,
+				683E01891C82189F00F7FA1A /* CheckBox-unselected.png in Resources */,
 				683E011C1C7E589A00F7FA1A /* Assets.xcassets in Resources */,
+				683E01911C82189F00F7FA1A /* Star-grey.png in Resources */,
+				683E01901C82189F00F7FA1A /* PointRight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
