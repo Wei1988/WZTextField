@@ -1,27 +1,29 @@
 //
-//  ViewController.m
+//  ThirdTabViewController.m
 //  WZTextField
 //
-//  Created by victor zhang on 2/24/16.
+//  Created by victor zhang on 2/26/16.
 //  Copyright © 2016 victor zhang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ThirdTabViewController.h"
 
-@interface ViewController ()
+@interface ThirdTabViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ThirdTabViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

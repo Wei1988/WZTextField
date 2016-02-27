@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		683E01111C7E589A00F7FA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01101C7E589A00F7FA1A /* main.m */; };
 		683E01141C7E589A00F7FA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01131C7E589A00F7FA1A /* AppDelegate.m */; };
-		683E01171C7E589A00F7FA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01161C7E589A00F7FA1A /* ViewController.m */; };
-		683E011A1C7E589A00F7FA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683E01181C7E589A00F7FA1A /* Main.storyboard */; };
 		683E011C1C7E589A00F7FA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683E011B1C7E589A00F7FA1A /* Assets.xcassets */; };
 		683E011F1C7E589A00F7FA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683E011D1C7E589A00F7FA1A /* LaunchScreen.storyboard */; };
 		683E012A1C7E589A00F7FA1A /* WZTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01291C7E589A00F7FA1A /* WZTextFieldTests.m */; };
 		683E01351C7E589A00F7FA1A /* WZTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01341C7E589A00F7FA1A /* WZTextFieldUITests.m */; };
+		683E01441C7E6EDF00F7FA1A /* WZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01431C7E6EDF00F7FA1A /* WZTextField.m */; };
+		683E014D1C80F3F900F7FA1A /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E014C1C80F3F900F7FA1A /* CustomTabBarViewController.m */; };
+		683E015C1C80F5A100F7FA1A /* FirstTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E015B1C80F5A100F7FA1A /* FirstTabViewController.m */; };
+		683E015F1C81012B00F7FA1A /* SecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E015E1C81012B00F7FA1A /* SecondTabViewController.m */; };
+		683E01621C81543A00F7FA1A /* ThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01611C81543A00F7FA1A /* ThirdTabViewController.m */; };
+		683E01651C81545B00F7FA1A /* FourthTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E01641C81545B00F7FA1A /* FourthTabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		683E01101C7E589A00F7FA1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		683E01121C7E589A00F7FA1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		683E01131C7E589A00F7FA1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		683E01151C7E589A00F7FA1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		683E01161C7E589A00F7FA1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		683E01191C7E589A00F7FA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		683E011B1C7E589A00F7FA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		683E011E1C7E589A00F7FA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		683E01201C7E589A00F7FA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,18 @@
 		683E01301C7E589A00F7FA1A /* WZTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		683E01341C7E589A00F7FA1A /* WZTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZTextFieldUITests.m; sourceTree = "<group>"; };
 		683E01361C7E589A00F7FA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683E01421C7E6EDF00F7FA1A /* WZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTextField.h; sourceTree = "<group>"; };
+		683E01431C7E6EDF00F7FA1A /* WZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTextField.m; sourceTree = "<group>"; };
+		683E014B1C80F3F900F7FA1A /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
+		683E014C1C80F3F900F7FA1A /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		683E015A1C80F5A100F7FA1A /* FirstTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTabViewController.h; sourceTree = "<group>"; };
+		683E015B1C80F5A100F7FA1A /* FirstTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTabViewController.m; sourceTree = "<group>"; };
+		683E015D1C81012B00F7FA1A /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabViewController.h; sourceTree = "<group>"; };
+		683E015E1C81012B00F7FA1A /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabViewController.m; sourceTree = "<group>"; };
+		683E01601C81543A00F7FA1A /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabViewController.h; sourceTree = "<group>"; };
+		683E01611C81543A00F7FA1A /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
+		683E01631C81545B00F7FA1A /* FourthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTabViewController.h; sourceTree = "<group>"; };
+		683E01641C81545B00F7FA1A /* FourthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +116,8 @@
 			children = (
 				683E01121C7E589A00F7FA1A /* AppDelegate.h */,
 				683E01131C7E589A00F7FA1A /* AppDelegate.m */,
-				683E01151C7E589A00F7FA1A /* ViewController.h */,
-				683E01161C7E589A00F7FA1A /* ViewController.m */,
-				683E01181C7E589A00F7FA1A /* Main.storyboard */,
+				683E014F1C80F4BA00F7FA1A /* CustomViews */,
+				683E014E1C80F49F00F7FA1A /* TabBarController */,
 				683E011B1C7E589A00F7FA1A /* Assets.xcassets */,
 				683E011D1C7E589A00F7FA1A /* LaunchScreen.storyboard */,
 				683E01201C7E589A00F7FA1A /* Info.plist */,
@@ -138,6 +150,64 @@
 				683E01361C7E589A00F7FA1A /* Info.plist */,
 			);
 			path = WZTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		683E014E1C80F49F00F7FA1A /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				683E01561C80F53500F7FA1A /* FourthTab */,
+				683E01551C80F52D00F7FA1A /* ThirdTab */,
+				683E01541C80F52400F7FA1A /* SecondTab */,
+				683E01531C80F51700F7FA1A /* FirstTab */,
+				683E014B1C80F3F900F7FA1A /* CustomTabBarViewController.h */,
+				683E014C1C80F3F900F7FA1A /* CustomTabBarViewController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		683E014F1C80F4BA00F7FA1A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				683E01421C7E6EDF00F7FA1A /* WZTextField.h */,
+				683E01431C7E6EDF00F7FA1A /* WZTextField.m */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		683E01531C80F51700F7FA1A /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				683E015A1C80F5A100F7FA1A /* FirstTabViewController.h */,
+				683E015B1C80F5A100F7FA1A /* FirstTabViewController.m */,
+			);
+			name = FirstTab;
+			sourceTree = "<group>";
+		};
+		683E01541C80F52400F7FA1A /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				683E015D1C81012B00F7FA1A /* SecondTabViewController.h */,
+				683E015E1C81012B00F7FA1A /* SecondTabViewController.m */,
+			);
+			name = SecondTab;
+			sourceTree = "<group>";
+		};
+		683E01551C80F52D00F7FA1A /* ThirdTab */ = {
+			isa = PBXGroup;
+			children = (
+				683E01601C81543A00F7FA1A /* ThirdTabViewController.h */,
+				683E01611C81543A00F7FA1A /* ThirdTabViewController.m */,
+			);
+			name = ThirdTab;
+			sourceTree = "<group>";
+		};
+		683E01561C80F53500F7FA1A /* FourthTab */ = {
+			isa = PBXGroup;
+			children = (
+				683E01631C81545B00F7FA1A /* FourthTabViewController.h */,
+				683E01641C81545B00F7FA1A /* FourthTabViewController.m */,
+			);
+			name = FourthTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +318,6 @@
 			files = (
 				683E011F1C7E589A00F7FA1A /* LaunchScreen.storyboard in Resources */,
 				683E011C1C7E589A00F7FA1A /* Assets.xcassets in Resources */,
-				683E011A1C7E589A00F7FA1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				683E01171C7E589A00F7FA1A /* ViewController.m in Sources */,
+				683E014D1C80F3F900F7FA1A /* CustomTabBarViewController.m in Sources */,
 				683E01141C7E589A00F7FA1A /* AppDelegate.m in Sources */,
+				683E01441C7E6EDF00F7FA1A /* WZTextField.m in Sources */,
 				683E01111C7E589A00F7FA1A /* main.m in Sources */,
+				683E01651C81545B00F7FA1A /* FourthTabViewController.m in Sources */,
+				683E015F1C81012B00F7FA1A /* SecondTabViewController.m in Sources */,
+				683E01621C81543A00F7FA1A /* ThirdTabViewController.m in Sources */,
+				683E015C1C80F5A100F7FA1A /* FirstTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		683E01181C7E589A00F7FA1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				683E01191C7E589A00F7FA1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		683E011D1C7E589A00F7FA1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
